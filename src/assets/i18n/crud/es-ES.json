@@ -1,0 +1,23 @@
+{
+    "new": "Nuevo",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "name": "Nombre",
+    "actions": "Acciones",
+    "confirmed-added": "Usuario {userName} agregado con éxito.",
+    "confirmed-edited": "Usuario {userName} editado con éxito.",
+    "confirmed-deleted": "Usuario {userName} eliminado con éxito.",
+    "shared": {
+        "crud-form": {
+            "save": "Guardar",
+            "placeholder": "Nombre"
+        }
+    },
+    "delete-modal": {
+        "message": "¿Está seguro que desea eliminar este ...?",
+        "description": "Descripción",
+        "yes": "Si",
+        "no": "No"
+    }
+}
+  

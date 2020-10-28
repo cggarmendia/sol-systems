@@ -1,0 +1,6 @@
+{
+    "hello": "Hello ",
+    "greeting": "Hello {{name}}!",
+    "logout": "Logout"
+}
+  

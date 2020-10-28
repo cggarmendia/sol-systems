@@ -1,0 +1,10 @@
+{
+    "welcome": "Bienvenido",
+    "feature": {
+        "title": "Características",
+        "translate": "ngx-translate",
+        "component-interaction": "component-interaction",
+        "oidc": "oidc",
+        "crud": "crud"
+    }    
+}

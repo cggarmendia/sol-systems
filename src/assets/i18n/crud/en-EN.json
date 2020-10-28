@@ -1,0 +1,23 @@
+{
+    "new": "New",
+    "edit": "Edit",
+    "delete": "Delete",
+    "name": "Name",
+    "actions": "Actions",
+    "confirmed-added": "User {userName} added successfully.",
+    "confirmed-edited": "User {userName} edited successfully.",
+    "confirmed-deleted": "User {userName} deleted successfully.",
+    "shared": {
+        "crud-form": {
+            "save": "Save",
+            "placeholder": "Name"
+        }
+    },
+    "delete-modal": {
+        "message": "Are you sure delete this ...?",
+        "description": "Descriptions",
+        "yes": "Yes",
+        "no": "No"
+    }
+}
+  

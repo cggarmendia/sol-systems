@@ -1,0 +1,19 @@
+<form nz-form [nzLayout]="'inline'" [formGroup]="crudForm" (ngSubmit)="submitForm()">
+    <nz-form-item>
+        <nz-form-control [nzErrorTip]="combineErrorTemplate">
+            <nz-input-group nzPrefixIcon="instagram">
+                <input formControlName="crudName" nz-input [placeholder]="'shared.crud-form.placeholder' | translate" />
+            </nz-input-group>
+            <ng-template #combineErrorTemplate let-control>
+                <ul>
+                    <li *ngIf="control.hasError('required')">Input is required</li>
+                </ul>               
+            </ng-template>
+        </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+        <nz-form-control>
+        <button nz-button nzType="primary" [disabled]="!crudForm.valid">{{ 'shared.crud-form.save' | translate}}</button>
+        </nz-form-control>
+    </nz-form-item>
+</form>
